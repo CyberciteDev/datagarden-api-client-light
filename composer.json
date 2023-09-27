@@ -1,0 +1,23 @@
+{
+    "name": "cybercite/datagarden-php-api-client-light",
+    "description": "Un client simple en php pour l'api de datagarden",
+    "type": "library",
+    "homepage": "https://github.com/CyberciteDev/datagarden-api-client-light",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "MOLINA Laurent",
+            "email": "lmolina@cybercite.fr",
+            "role": "Unicorn Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CyberCite\\DataGardenApiClient\\": "src/"
+        }
+    }
+}
